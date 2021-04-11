@@ -1,0 +1,108 @@
+/* accordion style */
+.bg-primary {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #2d3436;
+}
+.accordion-item:first-of-type .accordion-button {
+    font-size: 40px;
+    color: #2d3436;
+}
+button:not(:disabled) {
+    font-size: 40px;
+    color: #2d3436;
+}
+.bg-secondary{
+    font-size: 17px;
+    color:#fff;
+}
+#accordion2{
+    width: 50%;
+    margin: 0 auto;
+}
+.accordion-item:last-of-type .accordion-button.collapsed{
+    font-size: 30px;
+    color: #d63031;
+}
+strong{
+    color: #d63031;
+}
+.accordion-item:first-of-type .accordion-button {
+    font-size: 30px;
+    color: #d63031;
+}
+#accordion2 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    font-size: 30px;
+    color:#d63031;
+}
+/* alert style here */
+.bg-info{
+    background-color: #dfe6e9!important;
+}
+#alerts1 .bg-info{
+    background-color: #C8102E!important;
+}
+#alerts1 strong{
+    color:#fff;
+}
+#alerts1 .bg-info {
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+#alerts2 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    margin-top: 30px;
+    background-color: #960C22;
+    color: #fff;
+    cursor: pointer;
+}
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: -37px;
+    right: -1px;
+    z-index: 2;
+    padding: 1.25rem 1rem;
+}
+button:not(:disabled) {
+    margin-top: 30px;
+    background-color:transparent;
+    color: #fff;
+    cursor: pointer;}
+/* badges start */
+
+
+.btn .badge{
+    top: -23px;
+    left: 30px;
+    border-radius: 50px;
+
+}
+.btn .badge {
+    top: -23px!important;
+    left: 30px;
+    border-radius: 50px;
+}
+.btn .badge {
+    position: relative;
+    top: -1px;
+}
+.bg-danger {
+    background-color: #dc3545!important;
+}
+.badge {
+    font-size: 20px;
+}
+
+#badges2 button:not(:disabled) {
+    margin: 0px 20px;
+}
+
+#button [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    background-color:#fd79a8;
+}
+
+   
+
+
+
+
